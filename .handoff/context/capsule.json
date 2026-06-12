@@ -1,0 +1,10 @@
+{
+  "schema": "handoff.context_capsule.v1",
+  "project_name": "meta_rust_cli",
+  "role": "Subprocess plugin for the meta CLI exposing cargo commands (build/test/etc.) across all Rust projects in a meta workspace. main.rs registers the \"rust\" plugin via meta_plugin_protocol::run_plugin; lib.rs walks the .meta config tree, filters to directories with Cargo.toml, and returns execution plans for parallel cargo runs.",
+  "plane": "foundation",
+  "tier": "A",
+  "northstar": "Meta makes multi-repo feel like monorepo without the downsides; the canon machinery stays green, versioned by the parent distribution.",
+  "next_command": "Plan in kb first (git kb board); mint execution cards via hf (ADR-0003)",
+  "source": "ARCHITECTURE-TRUTH.md census 2026-06-12"
+}
